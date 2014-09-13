@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mjx_Gmaps>
+            <version>0.1.0</version>
+        </Mjx_Gmaps>
+    </modules>
+   <!-- <global>
+        <models>
+            <mjx_gmaps>
+                <class>Mjx_Gmaps_Model</class>
+            </mjx_gmaps>
+        </models>
+        <blocks>
+            <mjx_gmaps>
+                <class>Mjx_Gmaps_Model</class>
+            </mjx_gmaps>
+        </blocks>
+        <helpers>
+            <mjx_gmaps>
+                <class>Mjx_Gmaps_Model</class>
+            </mjx_gmaps>
+        </helpers>
+    </global>-->
+    <frontend>
+        <routers>
+            <mjx_gmaps>
+                <use>standard</use>
+                <args>
+                    <module>Mjx_Gmaps</module>
+                    <frontName>gmaps</frontName>
+                </args>
+            </mjx_gmaps>
+        </routers>
+    </frontend>
+</config>
