@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+<!--    <tabs>
+        <gmapsconfig translate="label" module="gmaps">
+            <label>Hello Config</label>
+            <sort_order>9999999</sort_order>
+        </gmapsconfig>
+    </tabs>-->
+<!--    <sections>
+        <gmaps_options translate="label" module="gmaps">
+            <label>Gmaps Configuration Options</label>
+            <tab>gmapsconfig</tab>
+            <frontend_type>text</frontend_type>
+            <set_order>1000</set_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+        </gmaps_options>
+    </sections>-->
+</config>

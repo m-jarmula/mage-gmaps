@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <gmaps translate="title" module="mjx_gmaps">
+            <title>Google Maps</title>
+            <sort_option>100</sort_option>
+            <action>adminhtml/gmaps</action>
+        </gmaps>
+    </menu>
+</config>

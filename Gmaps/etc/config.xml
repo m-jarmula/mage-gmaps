@@ -5,7 +5,7 @@
             <version>0.1.0</version>
         </Mjx_Gmaps>
     </modules>
-   <!-- <global>
+    <global>
         <models>
             <mjx_gmaps>
                 <class>Mjx_Gmaps_Model</class>
@@ -13,15 +13,15 @@
         </models>
         <blocks>
             <mjx_gmaps>
-                <class>Mjx_Gmaps_Model</class>
+                <class>Mjx_Gmaps_Block</class>
             </mjx_gmaps>
         </blocks>
         <helpers>
             <mjx_gmaps>
-                <class>Mjx_Gmaps_Model</class>
+                <class>Mjx_Gmaps_Helper</class>
             </mjx_gmaps>
         </helpers>
-    </global>-->
+    </global>
     <frontend>
         <routers>
             <mjx_gmaps>
@@ -33,4 +33,15 @@
             </mjx_gmaps>
         </routers>
     </frontend>
+     <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <mjx_gmaps before="Mage_Adminhtml">Mjx_Gmaps_Adminhtml</mjx_gmaps>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>
